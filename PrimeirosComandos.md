@@ -101,7 +101,7 @@ date = mostra data - sex 22 out 2021 19:21:38 -03
 
 - Apelidar um comando
 ```
-alias ls='ls -l --color'
+alias cls="clear"
 ```
 
 ### Comandos de ajuda
