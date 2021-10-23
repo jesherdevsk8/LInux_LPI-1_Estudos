@@ -1,0 +1,5 @@
+ls: não foi possível acessar 'arquivocomerro': Arquivo ou diretório inexistente
+
+usando o comando ls -l arquivoinexistente 2> arquivoerro.txt
+coleta a saída de erro
+
