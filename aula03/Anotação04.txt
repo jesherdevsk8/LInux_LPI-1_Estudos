@@ -1,0 +1,34 @@
+Sáidas:
+
+STDIN (0) - teclado
+STDOUT (1) - monitor
+STDERR (2) - monitor tbm
+
+Redirecionando a saída de um comando para um arquivo
+
+Exemplo:
+
+ls -l /etc > /tmp/saida.out  <--- irá criar um arquivo com nome saida.out com os logs
+do comando ls-l da pasta etc para o arquivo saida.out criado no diretório tmp..
+
+Usei tbm os comandos:
+
+ls -lh /tmp/agrupar/ > /home/jesher/listagem.out  <--- para criar um arquivo de log
+chamado listagem.out que dentro foi criado a listagem (ls -lh)
+
+com o comando date fiz a seguinte sintáxe:
+date >> listagem.out  <<--- que foi adicionado a data no arquivo usando o
+parametro (>>)....
+
+    >     =    um redirecionador sobrescreve
+   >>     =    dois redirecionadores acrescenta
+
+usando o comando ls -l arquivoinexistente 2> arquivoerro.txt
+coleta a saída de erro
+
+ls: não foi possível acessar 'arquivocomerro': Arquivo ou diretório inexistente
+
+usando tbm
+ls -lh /tmp/{existo, nao-existo} > log.out 2>&1
+cat log.out
+

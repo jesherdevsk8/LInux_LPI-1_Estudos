@@ -1,0 +1,29 @@
+Forma mais rapida de se fazer no padrão do dia-a-dia de trabalho
+Tar (agrupar diretório)
+
+sintáxe:
+tar zcvpf compactado.tar.gz /tmp/agrupar/
+
+z    -    para compactar em gzip
+c    -    para compactar
+v    -    verbose = ver detalhes
+p    -    manter as permissões
+f    -    file = arquivo
+
+-------------------------------------
+tar zcvpf compactado.tar.gz /tmp/agrupar/
+criaa formato gz
+tar xzf compactado.tar.gz   <--- sintáxe para descompactar gz
+____________________________________________
+
+tar jcvpf compactado.tar.bz2 /tmp/agrupar/
+cria formato bz2
+tar xjf compactado.tar.bz2  <--- sintáxe para descompactar bz2
+____________________________________________
+
+tar Jcvpf compactado.tar.xz /tmp/agrupar/
+cria formato xz
+tar xJf compactado.tar.xz  <--- sintáxe para descompactar xz
+
+
+
